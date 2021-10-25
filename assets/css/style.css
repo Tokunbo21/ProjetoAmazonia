@@ -1,0 +1,111 @@
+/*Estilo da página index.html*/
+
+#fundo{
+    background:linear-gradient(to bottom,rgb(156, 250, 147), rgba(0, 255, 42, 0.836), rgb(0, 128, 17));
+    margin: auto;
+}   
+
+.temamenu ul li{
+    background-color: #a8c0e6;
+
+}
+.titulo{
+    font-family: Verdana;
+    
+}
+
+a{
+    text-decoration: lightseagreen;
+    color: blue;
+}
+
+.tigre{
+    display: flex;
+  justify-content: center;
+
+}
+
+.subtitulo{
+    color:aliceblue;
+    font-size: 30px;
+}
+
+
+.formato {
+    padding:0%;
+}
+
+#menu li {
+    display: inline;
+    float: left;
+    padding: 10px 10px;
+    width: 200px;
+    height: 10px;
+    text-align: center;
+    line-height: 10px;
+    border: solid blue;
+}
+
+#menu ul li :hover > ol{
+    display: block;
+}
+
+#menu ol{
+    display: none;
+    padding:0%;
+}
+
+#menu li a {
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    color: white;
+}
+
+.center{
+    text-align: center;
+}
+
+.texto{
+    text-align:justify;
+}
+
+.container{
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.p30{
+    padding:15px;
+    margin: 15px;
+}
+.br50{
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.treino{
+
+    padding: 5px;
+    border: 2px;
+    margin: 5px;
+}
+
+.contacts_list{
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+
+/*Estilo da página contato.html*/
+
+.right{
+    align-self: flex-end;
+}
+
+.left{
+    text-align: left;
+}
