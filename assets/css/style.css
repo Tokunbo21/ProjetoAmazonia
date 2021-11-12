@@ -125,6 +125,29 @@ a{
 
 /*Estilo da página Sobre.html*/
 #fundoSobre{
-    background:linear-gradient(to bottom,rgb(147, 174, 250), rgba(78, 110, 214, 0.836), rgb(13, 0, 128));
-    margin: auto;
+    background:linear-gradient(to bottom,rgb(147, 246, 250), rgba(0, 238, 255, 0.836));
+    
+
 }   
+
+.br60{
+    border-radius: 30px;
+    margin: 30px;
+    width: 450px;
+    height: 500px;
+    
+}
+
+.tex{
+    text-align:justify;
+    font-size: 22px;
+    
+}
+
+.card-img-1{
+    border-radius: 60px;
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    padding-block-end: 20px;
+}
